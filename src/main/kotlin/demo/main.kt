@@ -1,13 +1,39 @@
 package demo
 
-class Demo(var state: Int)
-
-fun main() {
-    var d = Demo(1)
-
-    d.run {
-        state = 2
+fun a(x: String) {
+    println("Hello")
+    for (i in 1..10) {
+        println(i)
     }
+    println("Hello again")
+    (1..10).forEach {
+        println(it)
+    }
+    println("Hello")
+    for (i in 1..10) {
+        println(i)
+    }
+    println("Hello again")
+    (1..10).forEach {
+        println(it)
+    }
+}
 
-    println(d.state)
+fun b(x: String) {
+    println("Hello")
+    for (i in 1..10) {
+        println(i)
+    }
+    println("Hello again")
+    (1..10).forEach {
+        println(it)
+    }
+    println("Hello")
+    for (i in 1..10) {
+        println(i)
+    }
+    println("Hello again")
+    (1..10).forEach {
+        println(it)
+    }
 }

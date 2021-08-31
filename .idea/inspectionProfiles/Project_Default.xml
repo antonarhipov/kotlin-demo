@@ -1,0 +1,11 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="ERROR" enabled_by_default="true">
+      <GlobalSettings restrictedDuplicateScope="EVERYWHERE" />
+      <Languages>
+        <language minSize="20" name="Kotlin" />
+      </Languages>
+    </inspection_tool>
+  </profile>
+</component>
